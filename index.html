@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <script src="./script.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body, html { height: 100%; font-family: sans-serif; background-color: #f4f4f4; }
+    .carousel { height: 100vh; display: flex; flex-direction: column; overflow-y: scroll; scroll-snap-type: y mandatory; }
+    .slide { scroll-snap-align: start; flex-shrink: 0; height: 100vh; display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 20px; }
+    .english { flex: 1; display: flex; justify-content: center; align-items: flex-end; font-size: 4rem; color: #1a1a1a; text-align: center; }
+    .spanish { flex: 1; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; font-size: 2.5rem; color: #333; text-align: center; }
+    .pronunciation { font-size: 2.5rem; color: #666; margin-top: 20px; }
+    button { font-size: 1.2rem; padding: 10px 20px; margin-top: 10px; cursor: pointer; }
+  </style>
+  <title>Comandos JavaScript</title>
+</head>
+<body>
+
+  <div class="carousel">
+
+  </div>
+</body>
+</html>

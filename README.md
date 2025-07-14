@@ -1,2 +1,2 @@
-# comandosJavaScript
-Estudio de comandos Javascript
+# ingles
+ingles
