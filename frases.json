@@ -7,7 +7,7 @@
   },
   {
     "english": ".toFixed()",
-    "spanish": " se usa para formatear un número con una cantidad específica de decimales. Devuelve una cadena de texto con el número redondeado según el número de decimales especificado.",
+    "spanish": "Se usa para formatear un número con una cantidad específica de decimales.",
     "pronunciation": "/tu fix/",
     "description": " se usa para formatear un número con una cantidad específica de decimales. Devuelve una cadena de texto con el número redondeado según el número de decimales especificado."
   }
