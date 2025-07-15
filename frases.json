@@ -1,14 +1,86 @@
 [
   {
-    "english": "slice()",
-    "spanish": "Sirve para extraer una porción de un string o array, sin modificar el original",
-    "pronunciation": "/slaɪs/",
-    "description": "El método slice() en JavaScript es una función utilizada tanto en cadenas de texto (strings) como en arreglos (arrays) para obtener una copia parcial del contenido, sin modificar el original. Su sintaxis requiere dos parámetros: el índice inicial desde donde comenzará la extracción y el índice final que es exclusivo, es decir, no se incluye en el resultado. Si el índice final no se especifica, slice() tomará desde el inicio hasta el final completo del string o array. Este método es especialmente útil cuando se necesita trabajar con una sección específica de datos, como por ejemplo extraer una palabra dentro de una frase, obtener el resto de un texto después del primer carácter, o limitar la cantidad de elementos de un array, como cuando se seleccionan los primeros N registros que cumplen con ciertos filtros. Además, admite valores negativos para contar desde el final, lo que ofrece mayor flexibilidad. Por ejemplo, en strings permite obtener subcadenas y en arrays crear subconjuntos para paginación, particiones o tandas de elementos según la necesidad del negocio."
+    "english": "toFixed()",
+    "spanish": "Formatea un número con una cantidad específica de decimales.",
+    "pronunciation": "/tuː ˈfɪkst/",
+    "description": "Este método de los números en JavaScript convierte un valor numérico en una cadena de texto, conservando el número especificado de decimales. toFixed() es especialmente útil en aplicaciones financieras o científicas donde se requiere una precisión específica en los resultados mostrados al usuario. Al redondear el número, asegura que la representación decimal sea constante. Por ejemplo, (3.14159).toFixed(2) devuelve '3.14'. El valor devuelto es siempre una cadena, por lo que para usar el valor numéricamente se debe convertir con parseFloat o parseInt."
   },
   {
-    "english": ".toFixed()",
-    "spanish": "Se usa para formatear un número con una cantidad específica de decimales.",
-    "pronunciation": "/tuː ˈfɪkst/",
-    "description": " se usa para formatear un número con una cantidad específica de decimales. Devuelve una cadena de texto con el número redondeado según el número de decimales especificado."
+    "english": "typeof",
+    "spanish": "Devuelve el tipo de dato de un valor o variable.",
+    "pronunciation": "/ˈtaɪp ˌɒv/",
+    "description": "El operador typeof en JavaScript devuelve una cadena indicando el tipo de dato primitivo o de objeto de la variable o valor proporcionado. Puede identificar tipos como 'string', 'number', 'boolean', 'undefined', 'object', 'function' y 'symbol'. Es comúnmente utilizado en verificaciones o validaciones para determinar el tipo antes de proceder con ciertas operaciones y evitar errores de ejecución."
+  },
+  {
+    "english": ".charAt()",
+    "spanish": "Devuelve el carácter en la posición indicada dentro de un string.",
+    "pronunciation": "/tʃɑːr æt/",
+    "description": "El método charAt() permite acceder al carácter ubicado en una posición específica de una cadena de texto en JavaScript. Su sintaxis es string.charAt(indice), donde 'indice' es un número que indica la posición del carácter a retornar. Si el índice está fuera de rango, se devuelve una cadena vacía."
+  },
+  {
+    "english": ".slice()",
+    "spanish": "Extrae una porción de un string o array sin modificar el original.",
+    "pronunciation": "/slaɪs/",
+    "description": "slice() devuelve una copia superficial de una parte de un array o string, seleccionada desde el índice de inicio hasta el índice final (no incluido). Puede aceptar índices negativos para contar desde el final. Es útil para crear subcadenas o subconjuntos de datos, evitando alterar el array o cadena original."
+  },
+  {
+    "english": ".split()",
+    "spanish": "Divide un string en un array de substrings.",
+    "pronunciation": "/splɪt/",
+    "description": "split() divide un string en un array de fragmentos utilizando un separador especificado. Por ejemplo, 'a,b,c'.split(',') devuelve ['a', 'b', 'c']. Es ideal para convertir cadenas en listas manejables o procesables programáticamente."
+  },
+  {
+    "english": ".pop()",
+    "spanish": "Elimina el último elemento de un array.",
+    "pronunciation": "/pɑp/",
+    "description": "pop() elimina y devuelve el último elemento de un array, reduciendo su longitud en uno. Es útil en estructuras tipo pila (LIFO)."
+  },
+  {
+    "english": ".shift()",
+    "spanish": "Elimina el primer elemento de un array.",
+    "pronunciation": "/ʃɪft/",
+    "description": "shift() elimina el primer elemento de un array y desplaza los elementos restantes a la izquierda. Devuelve el elemento eliminado y modifica el array original."
+  },
+  {
+    "english": ".unshift()",
+    "spanish": "Agrega uno o más elementos al inicio de un array.",
+    "pronunciation": "/ʌnˈʃɪft/",
+    "description": "unshift() agrega uno o varios elementos al principio de un array, desplazando los elementos existentes hacia la derecha y devolviendo la nueva longitud del array."
+  },
+  {
+    "english": ".join()",
+    "spanish": "Une los elementos de un array en un string usando un separador.",
+    "pronunciation": "/dʒɔɪn/",
+    "description": "join() concatena todos los elementos de un array en una sola cadena de texto, separados por el separador especificado. Si no se define, el separador por defecto es una coma."
+  },
+  {
+    "english": ".indexOf()",
+    "spanish": "Devuelve el primer índice de un elemento en un array o string.",
+    "pronunciation": "/ˈɪndɛks ʌv/",
+    "description": "indexOf() devuelve el primer índice en el que se encuentra un elemento dado dentro de un array o string, o -1 si no se encuentra. Útil para buscar posiciones específicas en colecciones."
+  },
+  {
+    "english": ".lastIndexOf()",
+    "spanish": "Devuelve el último índice encontrado de un elemento dentro de un array o string.",
+    "pronunciation": "/læst ˈɪndɛks ʌv/",
+    "description": "lastIndexOf() funciona como indexOf pero inicia la búsqueda desde el final hacia el principio, permitiendo encontrar la última ocurrencia de un valor dentro de un array o string."
+  },
+  {
+    "english": ".includes()",
+    "spanish": "Verifica si un array o string contiene un elemento específico.",
+    "pronunciation": "/ɪnˈkluːdz/",
+    "description": "includes() determina si un array o string contiene un valor especificado, devolviendo true o false según corresponda. Es útil para verificaciones rápidas de existencia."
+  },
+  {
+    "english": "while",
+    "spanish": "Ejecuta un bloque de código mientras la condición sea verdadera.",
+    "pronunciation": "/waɪl/",
+    "description": "El bucle while ejecuta un bloque de código siempre que la condición especificada sea verdadera. Es un ciclo controlado por condición evaluada antes de cada iteración."
+  },
+  {
+    "english": "do while",
+    "spanish": "Ejecuta el bloque de código al menos una vez, luego verifica la condición.",
+    "pronunciation": "/duː waɪl/",
+    "description": "do...while es un ciclo que primero ejecuta el bloque de código y luego verifica la condición para repetir el proceso. Garantiza al menos una ejecución inicial."
   }
 ]
