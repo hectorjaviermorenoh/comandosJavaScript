@@ -82,5 +82,77 @@
     "spanish": "Ejecuta el bloque de código al menos una vez, luego verifica la condición.",
     "pronunciation": "/duː waɪl/",
     "description": "do...while es un ciclo que primero ejecuta el bloque de código y luego verifica la condición para repetir el proceso. Garantiza al menos una ejecución inicial."
+  },
+  {
+    "english": ".splice()",
+    "spanish": "Permite añadir, eliminar o reemplazar elementos dentro de un array.",
+    "pronunciation": "/splaɪs/",
+    "description": "splice() es un método poderoso que permite modificar el contenido de un array eliminando elementos existentes, agregando nuevos o ambos simultáneamente. Su sintaxis es array.splice(inicio, cantidad, elemento1, elemento2, ...). El primer parámetro indica desde qué índice empezar, el segundo cuántos elementos eliminar, y los parámetros adicionales son los nuevos elementos que se desean insertar. Es útil para actualizar colecciones dinámicas en tiempo de ejecución."
+  },
+  {
+    "english": ".map()",
+    "spanish": "Crea un nuevo array aplicando una función a cada uno de sus elementos.",
+    "pronunciation": "/mæp/",
+    "description": "map() recorre cada elemento de un array y aplica una función definida al mismo, devolviendo un nuevo array con los resultados. No modifica el array original. Es ideal para transformar estructuras de datos o convertir objetos en otro formato o unidad de medida."
+  },
+  {
+    "english": ".filter()",
+    "spanish": "Filtra los elementos de un array que cumplan con una condición.",
+    "pronunciation": "/ˈfɪltər/",
+    "description": "filter() crea un nuevo array con todos los elementos que pasan una prueba implementada por la función proporcionada. Se utiliza para obtener subconjuntos de datos que cumplen con un criterio específico, sin alterar el array original."
+  },
+  {
+    "english": ".reduce()",
+    "spanish": "Reduce un array a un solo valor aplicando una función acumuladora.",
+    "pronunciation": "/rɪˈdjuːs/",
+    "description": "reduce() aplica una función sobre un acumulador y cada elemento del array (de izquierda a derecha) para reducirlo a un único valor. Es útil en cálculos agregados como sumatorias, promedios o combinación de objetos complejos."
+  },
+  {
+    "english": "parseInt()",
+    "spanish": "Convierte una cadena de texto a un número entero.",
+    "pronunciation": "/ˈpɑːrs ˈɪnt/",
+    "description": "parseInt() analiza una cadena de texto y la convierte en un número entero según la base numérica especificada (radix). Si no puede convertir el valor, devuelve NaN. Es útil cuando se necesita convertir números almacenados como texto en valores numéricos utilizables."
+  },
+  {
+    "english": "parseFloat()",
+    "spanish": "Convierte una cadena de texto a un número decimal.",
+    "pronunciation": "/ˈpɑːrs ˈfloʊt/",
+    "description": "parseFloat() convierte una cadena que representa un número decimal en un número de tipo float (punto flotante). A diferencia de parseInt, mantiene los decimales del número interpretado."
+  },
+  {
+    "english": "findIndex()",
+    "spanish": "Retorna el índice del primer elemento que cumple una condición dada.",
+    "pronunciation": "/faɪnd ˈɪndɛks/",
+    "description": "findIndex() busca en el array y devuelve el índice del primer elemento que cumpla con la función de prueba proporcionada. Si ningún elemento satisface la condición, devuelve -1. Es útil para localizar posiciones dentro de una colección."
+  },
+  {
+    "english": "setInterval()",
+    "spanish": "Ejecuta una función de manera repetitiva en un intervalo de tiempo definido.",
+    "pronunciation": "/ˌset ˈɪntərvəl/",
+    "description": "setInterval() llama repetidamente a una función o código con un retraso fijo de tiempo (en milisegundos) entre cada ejecución. Es ideal para tareas recurrentes como actualizaciones de UI, polling o cronómetros."
+  },
+  {
+    "english": "setTimeout()",
+    "spanish": "Ejecuta una función después de un retardo en milisegundos.",
+    "pronunciation": "/ˌset ˈtaɪmaʊt/",
+    "description": "setTimeout() permite ejecutar una función una sola vez después de transcurrido el tiempo especificado en milisegundos. Es útil para retrasar la ejecución de acciones o animaciones."
+  },
+  {
+    "english": "Spread Operator (...)",
+    "spanish": "Permite expandir elementos de un array o propiedades de un objeto.",
+    "pronunciation": "/spred ˈɑpəˌreɪtər/",
+    "description": "El operador de propagación (...) permite desempaquetar elementos de un array o propiedades de un objeto en otro array u objeto. Es útil para crear copias superficiales, fusionar objetos o listas de parámetros en funciones."
+  },
+  {
+    "english": "new Date()",
+    "spanish": "Crea un nuevo objeto Date que representa la fecha y hora actuales.",
+    "pronunciation": "/njuː deɪt/",
+    "description": "new Date() crea una instancia de objeto Date que representa la fecha y hora actuales según el reloj del sistema, o bien una fecha específica si se pasan parámetros. Permite manipular y formatear fechas y horas."
+  },
+  {
+    "english": ".bind()",
+    "spanish": "Establece el contexto de ejecución de una función.",
+    "pronunciation": "/baɪnd/",
+    "description": "bind() crea una nueva función que, cuando es llamada, tiene su 'this' establecido con el valor proporcionado. Esto es clave para controlar el contexto de métodos en callbacks o eventos."
   }
 ]
