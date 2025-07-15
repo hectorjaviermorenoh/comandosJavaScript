@@ -2,13 +2,13 @@
   {
     "english": "slice()",
     "spanish": "Sirve para extraer una porción de un string o array, sin modificar el original",
-    "pronunciation": "/du nɑːt tʌʧ mi/",
+    "pronunciation": "/slaɪs/",
     "description": "El método slice() en JavaScript es una función utilizada tanto en cadenas de texto (strings) como en arreglos (arrays) para obtener una copia parcial del contenido, sin modificar el original. Su sintaxis requiere dos parámetros: el índice inicial desde donde comenzará la extracción y el índice final que es exclusivo, es decir, no se incluye en el resultado. Si el índice final no se especifica, slice() tomará desde el inicio hasta el final completo del string o array. Este método es especialmente útil cuando se necesita trabajar con una sección específica de datos, como por ejemplo extraer una palabra dentro de una frase, obtener el resto de un texto después del primer carácter, o limitar la cantidad de elementos de un array, como cuando se seleccionan los primeros N registros que cumplen con ciertos filtros. Además, admite valores negativos para contar desde el final, lo que ofrece mayor flexibilidad. Por ejemplo, en strings permite obtener subcadenas y en arrays crear subconjuntos para paginación, particiones o tandas de elementos según la necesidad del negocio."
   },
   {
     "english": ".toFixed()",
     "spanish": "Se usa para formatear un número con una cantidad específica de decimales.",
-    "pronunciation": "/tu fix/",
+    "pronunciation": "/tuː ˈfɪkst/",
     "description": " se usa para formatear un número con una cantidad específica de decimales. Devuelve una cadena de texto con el número redondeado según el número de decimales especificado."
   }
 ]
