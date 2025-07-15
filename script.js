@@ -37,16 +37,6 @@
 
 
 
-  function mostrarTamanioPantalla() {
-  const vw = window.innerWidth;  // ancho en píxeles
-  const vh = window.innerHeight; // alto en píxeles
-
-    alert(`Tamaño de pantalla:
-    - Width (vw): ${vw}px
-    - Height (vh): ${vh}px`);
-  }
-
-  mostrarTamanioPantalla()
 
 
 
